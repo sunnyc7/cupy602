@@ -1,9 +1,9 @@
 import os
 import signal
 
-import trader
+import trader as trad
 
 signal.signal(signal.SIGINT, lambda s, f: os._exit(0))
 
 if __name__ == "__main__":
-    display_menu()
+    trad.generator.display_menu()
