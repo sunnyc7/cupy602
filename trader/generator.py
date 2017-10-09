@@ -36,9 +36,6 @@ def stock_sell(ticker,qty):
     
 # based on Intro to Python - http://introtopython.org/terminal_apps.html
 def display_title_bar():
-    # Clears the terminal screen, and displays a title bar.
-    os.system('clear')
-              
     print("\t**********************************************")
     print("\t***  CONSOLE TRADER !!  ***")
     print("\t**********************************************")

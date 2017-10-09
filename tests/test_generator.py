@@ -4,8 +4,8 @@ from trader import generator
 #This needs to be completely overhauled at a later period
 
 def test_type_get_quote():
-    #word = generator.get_quote("AAPL")        
-    word = get_quote("AAPL")        
+    word = generator.get_quote("AAPL")        
+    #word = get_quote("AAPL")        
     assert 'AAPL' in word
     #assert 'float64' in word
     assert type(word) != str
