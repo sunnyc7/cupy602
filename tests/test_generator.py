@@ -1,15 +1,19 @@
 import unittest
 
 from trader import generator
+#This needs to be completely overhauled at a later period
+
+def test_get_quote():
+    l = ('AAPL')
+    word = trader.get_quote("AAPL")
+    assert l in word
+
+ def test_type_get_quote():
+    word = trader.get_quote("AAPL")
+    assert type(word) == float64
+    assert nottype(word) == str    
 
 '''
-This needs to be completely overhauled at a later period
-
-def test_sample_single_word():
-    l = ('foo','bar','foobar')
-    word = generator.sample(l)
-    assert word in l
-
 def test_sample_multiple_word():
     l = ('foo','bar','foobar')
     words = generator.sample(l,2)
@@ -23,4 +27,4 @@ def test_generate_buzz_of_at_least_five_words():
     assert len(phrase.split()) >=5
     
 '''
-    
+
