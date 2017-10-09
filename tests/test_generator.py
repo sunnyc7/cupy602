@@ -3,15 +3,17 @@ import unittest
 from trader import generator
 #This needs to be completely overhauled at a later period
 
+'''
 def test_get_quote():
     l = ('AAPL')
     word = trader.get_quote("AAPL")
     assert l in word
+'''
 
  def test_type_get_quote():
-    word = trader.get_quote("AAPL")
-    assert type(word) == float64
-    assert nottype(word) == str    
+     word = trader.get_quote("AAPL")
+     assert type(word) == float64
+     assert nottype(word) == str    
 
 '''
 def test_sample_multiple_word():
