@@ -5,15 +5,15 @@ from trader import generator
 
 '''
 def test_get_quote():
-    l = ('AAPL')
+   l = ('AAPL')
     word = trader.get_quote("AAPL")
     assert l in word
 '''
 
- def test_type_get_quote():
-     word = trader.get_quote("AAPL")
-     assert type(word) == float64
-     assert nottype(word) == str    
+def test_type_get_quote():
+    word = trader.get_quote("AAPL")
+    assert type(word) == float64
+    assert nottype(word) == str    
 
 '''
 def test_sample_multiple_word():
