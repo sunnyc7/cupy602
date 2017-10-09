@@ -1,6 +1,6 @@
 import unittest
 
-from trader import generator
+import trader
 #This needs to be completely overhauled at a later period
 
 '''

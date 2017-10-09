@@ -1,7 +1,7 @@
 import os
 import signal
 
-from trader import generator
+import trader
 
 signal.signal(signal.SIGINT, lambda s, f: os._exit(0))
 
